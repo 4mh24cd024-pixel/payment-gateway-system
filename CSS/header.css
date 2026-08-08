@@ -1,27 +1,34 @@
 .header{
     height: 50px;
-    width: 414px;
+    width: 100%;
+    max-width: 430px;
+    margin: auto;
     background-color: white;
     display: flex;
     align-items: center;
     gap: 16px;
     padding-left: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2000;
 }
 
 .menu {
     position: fixed;
     top: 50px;
     width: 215px;
-    height: 100vh;
+    height: 360vh;
 
     background-color: white;
     
     /* Align the menu with the left edge of your 430px website */
-    left: 169px;
+    left: 0px;
 
     transform: translateX(-200%);
     transition: transform 0.4s ease; 
-    
+ /*decides which element appears in front or back based on the value*/
 }
 
 .menu.open{
