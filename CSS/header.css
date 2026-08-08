@@ -1,0 +1,48 @@
+.header{
+    height: 50px;
+    width: 414px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-left: 16px;
+}
+
+.menu {
+    position: fixed;
+    top: 50px;
+    width: 215px;
+    height: 100vh;
+
+    background-color: white;
+    
+    /* Align the menu with the left edge of your 430px website */
+    left: 169px;
+
+    transform: translateX(-200%);
+    transition: transform 0.4s ease; 
+    
+}
+
+.menu.open{
+    transform: translateX(0);
+}
+
+.menu-btn{
+    font-size: x-large;
+    border: none;
+}
+
+a{
+    display: flex;
+    flex-direction: column;
+    padding-left: 6px;
+    padding-top: 12px;
+    color: #2f3b2f;
+}
+
+#logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
