@@ -18,7 +18,8 @@
 .menu {
     position: fixed;
     top: 50px;
-    width: 215px;
+    width: 100%;
+    max-width: 215px;
     height: 360vh;
 
     background-color: white;
