@@ -23,9 +23,8 @@
 
 .rbox{
     background-color: white;
-    height: 20px;
+    height: 270px;/*use outline to debug height was 20px so the letter was appearing over the cards*/
     width: 100%;
-
 }
 
 .swipe{
