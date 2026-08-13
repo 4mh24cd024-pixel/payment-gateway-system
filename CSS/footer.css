@@ -1,17 +1,18 @@
 .footer{
-    margin-top: 150px;
+    margin-top: 200px;
+    color: white;
 }
 
-
-
 .letter{
-    height: 300px;
+    height: 290px;
     padding-top: 5px;
     width: 100%;
     max-width: 430px;
     background-color: rgb(27, 26, 26);
-    color: white;
+    color:lightgrey;
     text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 30px;
 }
 
 .email{
@@ -25,4 +26,79 @@
     margin-top: 20px;
     height: 35px;   
     letter-spacing: 2px;
+}
+
+.info{
+    height: 190px;
+    width: 100%;
+    max-width: 430px;
+    background-color: rgb(27, 26, 26);
+    padding-top: 30px;
+    color: white;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 0px;
+}
+
+.footer-list{
+    color: lightgray;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.about{
+    height: 150px;
+    width: 100%;
+    max-width: 430px;
+    background-color: rgb(27, 26, 26);
+    padding-top: 50px;
+}
+
+.emaanir{
+    margin-top: 0;
+    letter-spacing: 2px;
+    padding-left: 25px;
+}
+
+.intro{
+    padding-top: 10px;
+    padding-left: 20px;
+    line-height:25px;
+    color: lightgrey;
+}
+
+.socials{
+    height: 70px;
+    width: 100%;
+    max-width: 430px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    background-color: rgb(27, 26, 26);
+    padding-top: 0;
+}
+
+.apps{
+    padding-left: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.apps img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 25px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: small;
+    color: rgba(255,255,255,0.6);
+    background-color: rgb(27, 26, 26);
+    margin-top: 0;
+    padding-top: 5px;
+    margin-bottom: 0;
+    height: 40px;
 }
