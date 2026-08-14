@@ -9,10 +9,19 @@
     gap: 16px;
     padding-left: 16px;
     position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
     z-index: 2000;
+}
+
+.brand{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    letter-spacing: 1.5px;
 }
 
 .menu {
